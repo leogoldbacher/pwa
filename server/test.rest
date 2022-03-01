@@ -1,0 +1,15 @@
+POST https://wolfsberger-pwa4.herokuapp.com/notify
+Content-Type: application/json
+
+{
+    "message": "Hello Notification via Push"
+}
+
+###
+
+POST http://localhost:3000/notify
+Content-Type: application/json
+
+{
+    "message": "Hello Notification via Push"
+}
